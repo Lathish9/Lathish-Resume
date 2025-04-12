@@ -1,103 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Resume</title>
-        <link
-        rel="stylesheet"
-        href="./style.css" />
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lathish Rai - Professional Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 40px;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 20px;
+    }
+    .header h1 {
+      margin: 0;
+      color: #003366;
+      font-size: 2.2rem;
+    }
+    .header img {
+      border-radius: 8px;
+      height: 120px;
+      border: 2px solid #ccc;
+    }
+    h2 {
+      color: #004aad;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+      margin-top: 40px;
+    }
+    h3 {
+      color: #0d7b37;
+      margin-bottom: 4px;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>Lathish Rai</h1>
+        <p><strong>Email:</strong> lathishrai9@gmail.com</p>
+        <p><strong>Phone:</strong> 09326444685</p>
+        <p><strong>Location:</strong> Mumbai, India</p>
+      </div>
+      <img src="./lathish.png" alt="Lathish Rai">
+    </div>
 
-    <body>
-        <h1 style="color: blue;">Lathish Rai</h1>
-        <img src="./lathish.png" height="200" >
-        <h2>Objective</h2>
-        <p>To secure a challenging role in a professional environment background, strong wok ethic, and willingness to take on new responsibilities to contribute to the success of the company.</p>
-        <hr />
-        <h2>Education</h2>
-        <ul>
-            <li>BTech in Electronic Engineering-Vidyalankar institute of technology  (VIT)</li>
-            <li>Diploma in Electronic And Telecommunication- 80%</li>
-            Engineering-Vidyalankar Polytechnic (VP)
-        </ul>
-        <hr />
-        <h2>Personal Projects</h2>
-        <ul>
-            <li><h3>Surveillance Car Using ESP32 Module</h3></li>
-            <p>(08/2021 - 06/2022)</p>
-            <ul>
-                <li>Final year electronics and telecommunication project built under the 
-                    guidance of Professor Pranesh Naik, VP for a period of one year.</li>
-                    <li>Designed to help the wifi modulation to overcome the lack of visual 
-                        sense, by using other senses like sound and touch using Arduino Uno.</li>
-                        <li>You can control this robot using your smartphone or computer using 
-                            a WiFi network. This is an Esp32 camera project so we can watch the 
-                            live-streaming video from the Esp32 cam module. To operate this 
-                            surveillance robot you have to use any web browser.</li>
-            </ul>
-            <li><h3>NET MART (E-commerce Website)</h3></li>
-            <p>(11/2023 - 05/2024)</p>
-            <ul>
-                <li>Final year electronics project built under the guidance of Professor
-                    Uma Jaishankar, VIT for a period of one year.
-                    </li>
-                    <li>This project aims to develop an e-commerce website specializing in headphones using HTML, 
-                        JavaScript, and CSS. The website includes essential features such as a login/sign-up page, a home page displaying 
-                        various headphone products with filtering options, a cart page for managing selected items, and a payment page for 
-                        secure transactions. </li>
-                        <li>The project utilizes front-end technologies to create a user-friendly interface that enhances the 
-                            shopping experience for customers interested in purchasing headphones online.</li>
-                            <li>reference of technical paper</li>
-            </ul>
-            <P><a href="https://www.ijirset.com/upload/2024/may/32_Net.pdf">https://www.ijirset.com/upload/2024/may/32_Net.pdf</a></P>
-        </ul>
-        <hr />
-        <h2>Skills</h2>
-        <ul>
-        <li>Computer Hardware</li>
-        <li>Electronic</li>
-        <li>programming</li>
-        <li>Public speaking</li>
-        <li>Team Management</li>
+    <h2>Professional Summary</h2>
+    <p>
+      Enthusiastic Electronics Engineer with strong skills in embedded systems and web development. Experienced in executing team-based projects and developing creative, technically sound solutions.
+    </p>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Electronic Engineering</strong> – Vidyalankar Institute of Technology (VIT)</li>
+      <li><strong>Diploma in Electronics & Telecommunication</strong> – Vidyalankar Polytechnic (VP), Score: 80%</li>
     </ul>
-    <hr />
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>Surveillance Car Using ESP32 Module</h3>
+        <p><em>Aug 2021 – Jun 2022</em></p>
+        <ul>
+          <li>Developed as a final-year project under Prof. Pranesh Naik (VP).</li>
+          <li>Created a mobile-controlled surveillance vehicle using ESP32 and Arduino Uno.</li>
+          <li>Live video streaming and control via WiFi-enabled web interface.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>NET MART – E-commerce Website</h3>
+        <p><em>Nov 2023 – May 2024</em></p>
+        <ul>
+          <li>Built an e-commerce platform focused on headphones using HTML, CSS, and JavaScript.</li>
+          <li>Included features like login/signup, product filtering, shopping cart, and checkout.</li>
+          <li>Supervised by Prof. Uma Jaishankar (VIT).</li>
+          <li><a href="https://www.ijirset.com/upload/2024/may/32_Net.pdf" target="_blank">Read the Technical Paper</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Hardware Troubleshooting</li>
+      <li>Embedded Systems</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Team Collaboration</li>
+      <li>Public Speaking</li>
+    </ul>
+
     <h2>Programming Languages</h2>
     <ol>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+      <li>HTML</li>
+      <li>Python</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
     </ol>
-    <hr />
-    <h2>Certificates</h2>
+
+    <h2>Certifications</h2>
     <ul>
-        <li>Electrical Circuit Design for Embedded Systems- udemy
-        </li>
+      <li>Electrical Circuit Design for Embedded Systems – Udemy</li>
     </ul>
-    <hr />
+
     <h2>Languages</h2>
     <ul>
-        <li>English</li>
-        <li>Hindi</li>
-        
+      <li>English (Fluent)</li>
+      <li>Hindi (Fluent)</li>
     </ul>
-    <hr />
-    <h2>Interests(Hobbies)</h2>
-    <ul>
-        <li>Cricket</li>
-        <li>Dance</li>
-        <li>Drawing</li>
-        <li>Reading</li>
-        <li>Coding</li>
-        <li>Fashion Show</li>
-    </ul>
-    <hr />
-    <h2>Other</h2>
-    <ul>
-        <li><a href="./Contact.html"> Contact Me</a></li></ul>
-        <Footer>
-            <p>© Lathish Rai. All rights reserved.</p>
-        </Footer>
-    </body>
 
+    <h2>Interests</h2>
+    <ul>
+      <li>Cricket, Dance, Drawing, Reading, Coding, Fashion Shows</li>
+    </ul>
+
+    <footer>
+      <p>© 2025 Lathish Rai. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
 </html>
