@@ -1,151 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lathish Rai - Professional Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lathish Rai - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 40px;
+      font-family: 'Roboto', sans-serif;
+      background: #f0f2f5;
       color: #333;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      padding: 40px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 2px solid #004aad;
-      padding-bottom: 20px;
-    }
-    .header h1 {
-      margin: 0;
-      color: #003366;
-      font-size: 2.2rem;
-    }
-    .header img {
-      border-radius: 8px;
-      height: 120px;
-      border: 2px solid #ccc;
-    }
-    h2 {
-      color: #004aad;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
-      margin-top: 40px;
-    }
-    h3 {
-      color: #0d7b37;
-      margin-bottom: 4px;
-    }
-    p, li {
       line-height: 1.6;
     }
+    header {
+      background-color: #282c34;
+      padding: 2rem;
+      color: white;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #61dafb;
+      margin-top: 10px;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00509e;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      color: #007f5f;
+    }
     ul, ol {
-      padding-left: 20px;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
     }
     a {
-      color: #0066cc;
+      color: #00509e;
       text-decoration: none;
     }
     footer {
-      margin-top: 40px;
       text-align: center;
-      font-size: 0.85rem;
+      padding: 1rem;
+      background: #f1f1f1;
+      font-size: 0.9rem;
       color: #777;
+    }
+    .project-card {
+      background: #f9f9f9;
+      padding: 1.2rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #00509e;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .project-card h3 {
+      color: #007f5f;
+      margin-bottom: 0.5rem;
+    }
+    .project-card p {
+      margin-bottom: 0.6rem;
+    }
+    .project-card a {
+      color: #00509e;
+      margin-right: 1rem;
+      font-weight: 500;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div>
-        <h1>Lathish Rai</h1>
-        <p><strong>Email:</strong> lathishrai9@gmail.com</p>
-        <p><strong>Phone:</strong> 09326444685</p>
-        <p><strong>Location:</strong> Mumbai, India</p>
-      </div>
-      <img src="./lathish.png" alt="Lathish Rai">
+
+  <header>
+    <h1>Lathish Rai</h1>
+    <p>Electronics Engineer | Developer | Tech Enthusiast</p>
+    <img src="./lathish.png" alt="Lathish Rai">
+    <p>Email: lathishrai9@gmail.com | Phone: 09326444685 | Mumbai, India</p>
+  </header>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>I'm an enthusiastic Electronics Engineer with a passion for embedded systems, web development, and hardware design. I enjoy building innovative tech solutions and collaborating on impactful projects.</p>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>NET MART – E-commerce Website</h3>
+      <p>A headphone-focused e-commerce site built with HTML, CSS & JS. Includes login, product filters, cart & checkout.</p>
+      <a href="https://lathish9.github.io/NETMART/" target="_blank">🔗 Live Demo</a>
+      <a href="https://github.com/lathish9/NETMART" target="_blank">🗂️ Source Code</a>
+      <br><a href="https://www.ijirset.com/upload/2024/may/32_Net.pdf" target="_blank">📄 Technical Paper</a>
     </div>
 
-    <h2>Professional Summary</h2>
-    <p>
-      Enthusiastic Electronics Engineer with strong skills in embedded systems and web development. Experienced in executing team-based projects and developing creative, technically sound solutions.
-    </p>
+    <div class="project-card">
+      <h3>Tic-Tac-Toe – Web Game</h3>
+      <p>A modern 2-player Tic-Tac-Toe game with interactive UI and win/tie logic.</p>
+      <a href="https://lathish9.github.io/Tic-Tac-Toe/" target="_blank">🎮 Play Game</a>
+      <a href="https://github.com/lathish9/Tic-Tac-Toe" target="_blank">🗂️ Source Code</a>
+    </div>
 
+    <div class="project-card">
+      <h3>Move-It – JavaScript Game</h3>
+      <p>A fun browser-based movement game built with JS event handling and DOM manipulation.</p>
+      <a href="https://lathish9.github.io/Move-It/" target="_blank">🕹️ Try Game</a>
+      <a href="https://github.com/lathish9/Move-It" target="_blank">🗂️ Source Code</a>
+    </div>
+
+    <h3>Surveillance Car Using ESP32 Module (Aug 2021 – Jun 2022)</h3>
+    <ul>
+      <li>Created a mobile-controlled surveillance vehicle with ESP32 and Arduino Uno.</li>
+      <li>Enabled live video streaming via a WiFi-based web interface.</li>
+      <li>Project supervised by Prof. Pranesh Naik, VP.</li>
+    </ul>
+  </section>
+
+  <section class="section">
     <h2>Education</h2>
     <ul>
       <li><strong>B.Tech in Electronic Engineering</strong> – Vidyalankar Institute of Technology (VIT)</li>
-      <li><strong>Diploma in Electronics & Telecommunication</strong> – Vidyalankar Polytechnic (VP), Score: 80%</li>
+      <li><strong>Diploma in Electronics & Telecommunication</strong> – Vidyalankar Polytechnic (VP), 80%</li>
     </ul>
+  </section>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h3>Surveillance Car Using ESP32 Module</h3>
-        <p><em>Aug 2021 – Jun 2022</em></p>
-        <ul>
-          <li>Developed as a final-year project under Prof. Pranesh Naik (VP).</li>
-          <li>Created a mobile-controlled surveillance vehicle using ESP32 and Arduino Uno.</li>
-          <li>Live video streaming and control via WiFi-enabled web interface.</li>
-        </ul>
-      </li>
-      <li>
-        <h3>NET MART – E-commerce Website</h3>
-        <p><em>Nov 2023 – May 2024</em></p>
-        <ul>
-          <li>Built an e-commerce platform focused on headphones using HTML, CSS, and JavaScript.</li>
-          <li>Included features like login/signup, product filtering, shopping cart, and checkout.</li>
-          <li>Supervised by Prof. Uma Jaishankar (VIT).</li>
-          <li><a href="https://www.ijirset.com/upload/2024/may/32_Net.pdf" target="_blank">Read the Technical Paper</a></li>
-        </ul>
-      </li>
-    </ul>
-
+  <section class="section">
     <h2>Skills</h2>
     <ul>
+      <li>Embedded Systems & IoT</li>
+      <li>Front-End Web Development (HTML, CSS, JavaScript)</li>
       <li>Hardware Troubleshooting</li>
-      <li>Embedded Systems</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Team Collaboration</li>
+      <li>Team Collaboration & Leadership</li>
       <li>Public Speaking</li>
     </ul>
+  </section>
 
+  <section class="section">
     <h2>Programming Languages</h2>
-    <ol>
+    <ul>
       <li>HTML</li>
-      <li>Python</li>
       <li>CSS</li>
       <li>JavaScript</li>
-    </ol>
+      <li>Python</li>
+    </ul>
+  </section>
 
+  <section class="section">
     <h2>Certifications</h2>
     <ul>
       <li>Electrical Circuit Design for Embedded Systems – Udemy</li>
     </ul>
+  </section>
 
+  <section class="section">
     <h2>Languages</h2>
     <ul>
-      <li>English (Fluent)</li>
-      <li>Hindi (Fluent)</li>
+      <li>English </li>
+      <li>Hindi </li>
     </ul>
+  </section>
 
+  <section class="section">
     <h2>Interests</h2>
     <ul>
       <li>Cricket, Dance, Drawing, Reading, Coding, Fashion Shows</li>
     </ul>
+  </section>
 
-    <footer>
-      <p>© 2025 Lathish Rai. All rights reserved.</p>
-    </footer>
-  </div>
+  <footer>
+    <p>© 2025 Lathish Rai. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
